@@ -1,0 +1,32 @@
+.first{
+    width: 200px;
+    height: 200px;
+    background-color: #71d2f0;
+}   
+.second{
+    width: 200px;
+    height: 200px;
+    border: 20px solid black;
+    background-color:  #71d2f0;
+    margin-left: 10px;
+}
+body{
+    display: flex;
+}
+.third{
+    width: 170px;
+    height: 220px;
+    background-color:  #71d2f0;
+    padding: 20px;
+    border: 20px solid black;
+    margin-left: 10px;
+}
+.fourth{
+    width: 170px;
+    height: 220px;
+    background-color:  #71d2f0;
+    padding: 20px;
+    border: 20px solid black;
+    margin-left: 10px;
+    margin-top: 20px;
+}

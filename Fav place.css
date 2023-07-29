@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(37, 158, 158);
+}
+@media screen max-width:600px{
+    .imgOne{
+        size:200px;
+    }
+}

@@ -1,0 +1,15 @@
+/* Heading of the webpage */
+h1{
+    text-align: center;
+    font-weight: 600;
+    color: yellow;
+}
+body{
+    background-image: linear-gradient(to right,red,black);
+}
+/* Using linear gradient */
+p{
+    color: white;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

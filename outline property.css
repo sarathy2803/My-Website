@@ -1,0 +1,60 @@
+.head_One{
+    border: 10px solid green;
+    width: 80px;
+    font-size: 30px;
+}
+.head_Two{
+    border: 10px dashed green;
+    width: 80px;
+    font-size: 30px;
+}
+.head_Three{
+    border: 10px dotted green;
+    width: 80px;
+    font-size: 30px;
+}
+.head_Four{
+    border: 10px double green;
+    width: 80px;
+    font-size: 30px;
+}
+.head_Five{
+    border: 10px green;
+    width: 80px;
+    font-size: 30px;
+}
+.head_Six{
+    border:10px groove green;
+    width: 80px;
+    height: 30px;
+    font-size: 30px;
+}
+.head_Seven{
+    border: 10px ridge green;
+    width: 80px;
+    height: 30px;
+    font-size: 30px;
+}
+.head_Eight{
+    border: 10px inset green;
+    width: 80px;
+    height: 30px;
+    font-size: 30px;
+}
+.head_Nine{
+    border: 10px outset green;
+    width: 80px;
+    height: 30px;
+    font-size: 30px;
+}
+.head_Ten{
+    position: absolute;
+    left: 200px;
+}
+.head_Eleven{
+    position: absolute;
+    left: 400px;
+}
+body{
+    background-image: linear-gradient(to right,white,rgb(146, 199, 235),black);
+}

@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(to right, black,rgb(53, 238, 238),black);
+}
+h1{
+    color: red;
+    background-color: bisque;
+    border:  3px solid black;
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.head_One{
+    overflow: visible;
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    color: white;
+}
+.head_Two{
+    overflow: scroll;
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+}
+.head_Three{
+    overflow: hidden;
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+.head_Four{
+    overflow: auto;
+    background-color: violet;
+    color: white;
+    width: 150px;
+    height: 100px;
+}
+section{
+    display: inline-flex;
+    gap: 30px;
+}

@@ -1,0 +1,89 @@
+.imageCLass{
+    background-image: url("https://www.desktopbackground.org/p/2010/06/19/35554_cool-black-wallpaper-110-156-hd-wallpapers-jpg_1920x1200_h.jpg");
+    width: 100vw;
+    height: 500px;
+    margin-top: 100px;
+}
+.classIcon{
+    position: fixed;
+    right: 28%;
+    color: rgb(0, 0, 0);
+    top: 0%;}
+.paraOne{
+    position: fixed;
+    right: 10%;
+    color: rgb(0, 0, 0);
+    top: 0%;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+li{ 
+     padding: 20px; 
+     list-style: none; 
+     display: inline-block; 
+} 
+.navigationBar{
+    position: absolute;
+    left: 150px;  
+    top:0;
+}
+a:hover{
+    border-bottom:2px solid yellow;
+}
+.classOne{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.buttonOne{
+position: fixed;
+background-color: yellow;
+position: absolute;
+top: 500px;
+width: 90px;
+left: 40%;
+}
+.divOne{
+    height: 220px;
+    width: 220px;
+    color: white;
+    border: 2px solid ;
+    background-color: rgb(0, 255, 225);
+    
+}
+.divTwo{
+    height: 220px;
+    width: 220px;
+    color: white;
+    border: 2px solid ;
+    background-color: orangered;
+    
+}
+.divThree{
+    height: 220px;
+    width: 220px;
+    color: white;
+    border: 2px solid ;
+    background-color: rgb(21, 222, 18);
+    
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 90vh;
+}
+.anotherDiv{
+    display: flex;
+    justify-content:center;
+}
+.divFour,.divFive,.divSix{
+    width: 200px;
+}

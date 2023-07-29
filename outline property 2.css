@@ -1,0 +1,15 @@
+.head_One{
+    border: 10px dashed black;
+}
+.head_Two{
+    border: 10px dotted blue;
+}
+.head_Three{
+    border: 10px double yellow;
+}
+.head_Four{
+    border: 10px groove red;
+}
+.head_Five{
+    border: 10px ridge green;
+}

@@ -1,0 +1,47 @@
+.One{
+    height: 250px;
+    width: 190px;
+    background-color: black;
+    border-radius: 20px;
+    position: fixed;
+    left: 330px;
+    top: 260px;
+    transform: rotate(340deg);
+}
+body{
+    background-color: rgb(161, 45, 64);
+}
+.Two{
+    height: 300px;
+    width: 190px;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+    left: 465px;
+    top: 290px;
+    transform: rotate(380deg);
+    z-index: 1;
+}
+.Three{
+    height: 300px;
+    width: 190px;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+    left:480px;
+    top: 250px;
+    transform: rotate(380deg);
+    z-index: 0;
+}
+.King{
+    left: 280px;
+}
+.Prince{
+    color: white;
+    text-align: center;
+}
+.Queen{
+    left: 300px;
+    height: 200px;
+    border-color: black;
+}

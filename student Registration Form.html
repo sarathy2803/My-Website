@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" >
+    <style>
+        body{
+            background-color:skyblue;
+            margin: 400px;
+        }
+        h1{
+            text-align: center;
+            /* border:5px double black ; */
+        }
+        .Head_One{
+            height: 50px;
+            width: 650px;
+            margin: 20px;
+            background-color: green;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    <form>
+    <h1>
+        Student Registration Form
+    </h1>
+    <hr>
+    <div>   
+        <label for="first">Firstname</label><br>
+        <input type="text" id="first" name="first" placeholder="Firstname" size="100">
+    </div>
+    <div>
+        <label for="middle">Middlename</label><br>
+        <input type="text" id="middle" name="middle" placeholder="Middlename" size="100">
+    </div>       
+    <div>
+        <label>Lastname</label><br>
+        <input type="text" id="last" name="last" placeholder="Lastname" size="100">
+    </div>
+    <div>
+        <label>Course</label>
+        <select>
+             <option value="Course">Course</option>
+        </select>
+    </div>
+    <div>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label>Male</label>
+        <input type="radio" id="Female" name="Gender" value="female">
+        <label>Female</label>
+        <input type="radio" id="other" name="Gender" value="other">
+        <label>Other</label>
+    </div>
+    <div>
+        <label>Phone:</label><br>
+        <input type="tel" placeholder="+91" size="100">
+        <input type="tel" placeholder="phone no:" size="100"> 
+    </div>
+    <div>
+        <label for="Address">Current Address</label>
+        <textarea placeholder="Current Address" cols="87" rows="5"></textarea>
+    </div>
+    <div>
+        <label for="E-mail">E-mail</label>
+        <input type="email" placeholder="E-mail" size="100" >
+    </div>
+    <div>
+        <label>Password</label>
+        <input type="password" placeholder="password" size="100">
+    </div>
+    <div>
+        <label>Re-type password</label>
+        <input typr="password" placeholder="Re-type password" size="100">
+    </div>
+    <div>
+        <button class="Head_One" type="button" value="Register">Register</button>
+    </div>
+    </form>
+</body>
+</html

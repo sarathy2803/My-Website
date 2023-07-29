@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(to right,black,white,black);
+}
+/* cursor type=wait */
+h1{
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    cursor: wait;
+}
+/* cursor type=help */
+img{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    cursor: help;
+}
+/* cursor-type=text */
+p{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 400px;
+    cursor: text;
+    font-weight: 500;
+}

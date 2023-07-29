@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    place-items: left;
+}
+*{
+    text-align: center;
+}
+.Head_One{
+    color: rgb(92, 209, 255);
+    text-decoration: none; 
+    font-family: 'Roboto', sans-serif;;
+}
+hr{
+    color: gray;
+}
+button{
+    width: 200px;
+    height: 30px;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color:rgb(68, 190, 174) ;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;;
+}
+h4{
+    color: rgba(187, 178, 178, 0.692);
+    font-family: 'Roboto', sans-serif;;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(143, 143, 143);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+div{
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: white;
+    height: 450px;
+    width: 350px;
+}
+.Head_two{
+    text-align: end;
+}
+.Head_Three{
+    margin-right: -70%;
+    color: black;
+    background-color: white;
+}

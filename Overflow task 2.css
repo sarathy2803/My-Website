@@ -1,0 +1,10 @@
+body{
+    background-image: linear-gradient(to right,red,yellow,black);
+}
+h1{
+    text-align: center;
+}
+p{
+    overflow: scroll;
+    height: 800px;
+}

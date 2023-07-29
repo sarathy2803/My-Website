@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to top right,rgb(16, 192, 192),rgb(189, 40, 189) 70%);
+    height: 90vh;
+}
+div{
+    margin-left: 30%;
+    display: flex;
+    background-color: darkgray;
+    width: 470px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10%;
+}
+.a,.b,.c,.d,.e{
+    text-decoration-line: none;            
+    color: whitesmoke;
+    padding: 20px;
+}
+a:hover{
+    background-color: black;
+    border-radius:20%;
+}
+a:active{
+    background-color: whitesmoke;
+    color: red;
+}a
+a:visited{
+    color:darkgreen;
+}
+section{
+    width: 200px;
+    height: 330px;
+    background-color: darkgray;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 20px;
+    margin-left: 40%;
+}
+section h2:first-child{
+    color: aqua;
+    background-color: aliceblue;
+    height: 50px;
+}
+.content{
+    color: whitesmoke;
+}
+section p:nth-child(odd){
+    background-color: orangered;
+    height: 40px;
+}

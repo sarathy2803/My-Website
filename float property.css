@@ -1,0 +1,19 @@
+.One{
+    float: right;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right, black,red);
+}
+h1{
+    background-color: red;
+    border-radius: 30px;
+    width: 200px;
+    border: none;
+    opacity: 0.8;
+}
+.Two{
+    float: left;
+}  

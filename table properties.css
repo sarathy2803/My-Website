@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    border: 2px solid black;
+    border: none;
+    border-collapse: collapse;
+    padding: 25px;
+    text-align: center;
+}
+th{
+    background-color: green; 
+    color: white;
+}
+.d{
+    background-color: green;
+    color: white;
+}
+.d1{
+    background-color: green;
+    color: white;
+}
+.d2{
+    background-color: green;
+    color: white;
+}
+.d3{
+    background-color: green;
+    color: white;
+}
+
+.d4{
+    background-color: green;
+    color: white;
+}
+.d5{
+    background-color: green;
+    color: white;
+}
+.d6{
+    background-color: green;
+    color: white;
+}
+.row :nth-child(4){
+    background-color: rgb(231, 93, 116);
+}
+tr:nth-child(even){
+    background-color: grey;
+}

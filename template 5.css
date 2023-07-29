@@ -1,0 +1,67 @@
+.section_Head{
+    border:1px solid red;
+    width:150px;
+    text-align: center;
+    background-color: red;
+    color:white;
+    font-size:30px;
+}
+.main_Section{
+    width:600px;
+    margin:17%;
+}
+body{
+    background-image: url("https://e0.pxfuel.com/wallpapers/69/223/desktop-wallpaper-pinterest-baby-girl-cute-little-baby-girl-cute-baby-girl-beautiful-baby-girl-thumbnail.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+    background-color: black;
+}
+a{
+    padding: 8px;
+    color:white;
+    text-decoration: none;
+}
+.section_Header{
+    font-size:40px;
+    color:white;
+    text-transform: uppercase;
+}
+button{
+    padding:8px;
+    background-color: red;
+    border:none;
+    color:white;
+}
+p{
+    color:white;
+}
+.section_Rotate{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    position:relative;
+    left:900px;
+    top: -320px;
+    transform:rotate(45deg);
+    /* text-align: center; */
+    background-color: white;
+    border:none;
+    box-shadow: 10px 10px 10px;
+    color:red;
+}
+.rotate{
+    transform: rotate(-45deg);
+    /* margin-left:10px; */
+    margin:10px;
+    position: fixed;
+    bottom: 15px;
+    right:13px;
+    text-align: center;
+    font-size: 40px;
+    }

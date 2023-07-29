@@ -1,0 +1,32 @@
+h1{
+    color: white;
+    text-align: center;
+    cursor: wait;
+}
+.head_One{
+    height: 650px;
+    width: 500px;
+    background-color: black;
+    border: 2px solid red;
+    position: absolute;
+    left: 400px;
+    top: 10px;
+}
+body{
+    background-image: linear-gradient(to left,black,rgb(8, 52, 117),black);
+}
+img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: grab;
+}
+p{
+    cursor: cell;
+    color: white;
+}
+ul{
+    color: yellow;
+    cursor: zoom-in;
+}

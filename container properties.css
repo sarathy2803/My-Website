@@ -1,0 +1,22 @@
+.One{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Two{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.Three{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 10px;
+    flex-direction: row-reverse;
+}
